@@ -259,45 +259,51 @@ nav a:hover::before {
     opacity: 1;
 }
 
+.new-icons {
+    display: none;
+}
+#zwei{
+    display: none;
+}
+
 @media(max-width:576px) {
     nav a {
         display: none;
     }
+    header{
+        background-color: black;
+        display: flex;
+    }
+    
 
-    nav a {
-        display: none;
+    .words {
+        text-align: center;
+    }
+
+    .new-icons {
+
+        display: block;
+        color: white;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .box {
+        margin-top: 60px;
     }
 
     .logo img {
-        width: 100%;
+        width: 30%;
+        margin-right: 80px;
+        margin-bottom: 15px;
     }
 
-    .icons {
+    nav {
         display: none;
     }
 
-    .icons-2 a {
-        display: block;
-        color: #fff;
-        font-size: 25px;
-        margin-top: 17px;
-        margin-right: 110px;
-    }
-
-    .centertext a {
-        font-size: 53px;
-        color: #fff;
-        text-decoration: none;
-        position: absolute;
-        top: 33%;
-        left: 12%;
-    }
-
-    .centertext span {
-        position: absolute;
-        top: 43%;
-        max-width: 350px;
-        left: 12%;
+    .lorem {
+        width: 80%;
     }
 
     .button a {
@@ -306,16 +312,6 @@ nav a:hover::before {
         left: 12%;
     }
 
-    .centertext1 h2 {
-        font-size: 32px;
-
-    }
-
-    .centertext1 h4 {
-        font-size: 18px;
-        max-width: 380px;
-
-    }
 
     .boxes {
         display: flex;
@@ -341,9 +337,4 @@ nav a:hover::before {
         display: block;
         margin-bottom: 8px;
     }
-
-    .pluss {
-        display: none;
-    }
-
 }
