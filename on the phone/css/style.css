@@ -202,23 +202,66 @@ nav a:hover::before {
     font-weight: 200;
     margin-top: 10px;
 }
-
-.overlay {
-    position: absolute;
-    margin-top: 100%;
+.box{
+    cursor: pointer;
+}
+.lay .layout{
     border: 1px solid black;
-    width: 40px;
-    height: 40px;
     background-color: black;
+    opacity: 0;
+    transition: 0.5s;
+    width: 35%;
+    height: 8%;
+    position: absolute;
+    top: 70%;
+    left: -23%;
+}
+.lay .layout a span{
+    color: white;
+    margin-left: 100px;
+}
+.lay .layout:hover{
+    position: absolute;
+    left: 0;
+}
+.lay .layout a{
+    position: absolute;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.lay-three .layout{
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0;
+    transition: 0.5s;
+    width: 30%;
+    height: 8%;
+    position: absolute;
+    top: 70%;
+}
+.lay-three .layout a span{
+    color: white;
+    margin-left: 100px;
+}
+.lay-three .layout:hover{
+    position: absolute;
+    left: 0;
+}
+.lay-three .layout a{
+    position: absolute;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
 }
 
-.box:hover .overlay {
-    opacity: 1;
-}
 
-.pluss {
-    position: relative;
-}
+
+
 
 #one {
     margin-bottom: 15%;
